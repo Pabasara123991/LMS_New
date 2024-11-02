@@ -81,8 +81,8 @@ const Signin = () => {
           <h2 className="text-3xl font-bold  text-gray-900 sm:text-4xl">Sign In</h2>
           <p className="mt-3 text-lg text-gray-600">Welcome back! Please enter your details</p>
         </div>
-        <form className="mt-1 space-y-6" onSubmit={handleSignIn}>
-          <div className="space-y-8">
+        <form className="mt-3 space-y-3" onSubmit={handleSignIn}>
+          <div className="space-y-5">
             <div>
               <label htmlFor="email" className='block text-sm font-medium text-gray-700'>Email</label>
               <input 
@@ -142,7 +142,7 @@ const Signin = () => {
         </div>
         
 
-        <div className="mt-12 flex justify-center">
+        <div className="mt-6 flex justify-center">
           <img 
             src={LogoBig}
             alt="The Bee Academy Logo" 
