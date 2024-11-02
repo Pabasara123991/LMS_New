@@ -37,7 +37,7 @@ const Sidebar = () => {
       animate={{ x: 0 }}
       exit={{ x: -300 }}
       transition={{ duration: 0.3 }}
-      className="flex h-screen w-60 flex-col justify-between bg-white shadow-lg"
+      className="fixed flex h-screen w-60 flex-col justify-between bg-white shadow-lg"
     >
       <div>
         <motion.div

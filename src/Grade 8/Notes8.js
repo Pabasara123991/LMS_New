@@ -79,12 +79,12 @@ const Grade8Notes = () => {
                     <p className="text-sm text-gray-500 mb-8">
                       {note.createdAt ? new Date(note.createdAt).toLocaleDateString() : 'Date Not Available'}
                     </p>
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-between items-center gap-x-3">
                       <a
                         href={note.fileURL}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center bg-primary px-3 py-2 rounded-md text-white "
+                        className="flex items-center bg-primary px-2 py-2 rounded-md text-white "
                       >
                         <Eye className="w-5 h-5 mr-2" />
                         View
@@ -92,7 +92,7 @@ const Grade8Notes = () => {
                       <a
                         href={note.fileURL}
                         download
-                        className="flex items-center bg-primary px-3 py-2 rounded-md text-white "
+                        className="flex items-center bg-primary px-2 py-2 rounded-md text-white "
                       >
                         <Download className="w-5 h-5 mr-2" />
                         Download
