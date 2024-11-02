@@ -1,0 +1,19 @@
+/* Default styles for larger screens */
+.pb-20 {
+  padding-bottom: 5rem;
+  /* Adds padding for larger screens */
+}
+
+/* Tablet and smaller screen styles */
+@media (max-width: 1023px) {
+  .pb-20 {
+    padding-bottom: 7rem; /* Adjust padding for tablet screens */
+  }
+}
+
+@media (max-width: 639px) {
+  .pb-20 {
+    padding-bottom: 15rem;  /* Adjust padding for mobile screens */
+  }
+}
+
