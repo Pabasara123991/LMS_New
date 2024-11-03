@@ -37,7 +37,7 @@ const GradeSelect = () => {
   );
 
   return (
-    <div className="mx-auto min-h-screen flex flex-col pb-20">
+    <div className="mx-auto min-h-screen flex flex-col">
       <div className="container mx-auto flex flex-col h-full">
         <h1 className="text-4xl font-semibold text-center mb-10 mt-4">
           Select your grade to access courses <br /> and start learning.
