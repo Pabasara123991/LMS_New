@@ -74,9 +74,9 @@ const Homework6 = () => {
   }
 
   return (
-    <div className="flex ">
+    <div className="flex h-screen bg-gray-50">
       <Sidebar activeItem="Homework" />
-      <div className="container mx-auto px-4 py-8  bg-gray-50">
+      <div className="container mx-auto px-4 py-8  ">
         <h2 className="text-3xl font-bold mb-6 mt-5">Homework - Grade 6</h2>
         <table className="min-w-full bg-white border border-black-300 rounded-lg shadow-lg">
           <thead className="bg-yellow-400">

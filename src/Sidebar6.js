@@ -37,7 +37,7 @@ const Sidebar = () => {
       animate={{ x: 0 }}
       exit={{ x: -300 }}
       transition={{ duration: 0.3 }}
-      className="fixed flex h-screen w-60 flex-col justify-between bg-white shadow-lg"
+      className="flex h-screen w-60 flex-col justify-between bg-white shadow-lg"
     >
       <div>
         <motion.div
@@ -85,7 +85,7 @@ const Sidebar = () => {
         className="p-4"
       >
         <button
-          className="w-full flex items-center justify-start px-4 py-2 mb-8 text-lg font-semibold text-gray-600 hover:bg-black hover:text-white rounded-lg transition-colors duration-200"
+          className="w-full flex items-center justify-start px-4 py-2 mb-20 text-lg font-semibold text-gray-600 hover:bg-black hover:text-white rounded-lg transition-colors duration-200"
           onClick={handleLogout}
         >
           <LogOut className="mr-3 h-5 w-5" />
@@ -99,7 +99,7 @@ const Sidebar = () => {
     <div className="relative ">
       {/* Hamburger menu for small screens */}
       <button
-        className="fixed top-3 left-2 z-50 lg:hidden p-2 rounded-md bg-white shadow-md"
+        className="fixed top-6 left-2 z-50 lg:hidden p-2 rounded-md bg-white shadow-md"
         onClick={toggleSidebar}
       >
         <Menu className="w-6 h-6" />

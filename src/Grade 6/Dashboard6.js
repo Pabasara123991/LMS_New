@@ -79,7 +79,7 @@ const Dashboard6 = () => {
   }
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col min-h-screen">
       <header className="bg-white shadow">
         <div className="max-w-8xl mx-0 px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
           <div>
@@ -91,7 +91,7 @@ const Dashboard6 = () => {
           </div>
         </div>
       </header>
-      <main className="flex-grow overflow-auto pb-20">
+      <main className="flex-grow overflow-auto">
         <div className="max-w-full mx-0 px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col lg:flex-row gap-10 h-full">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:w-2/3">

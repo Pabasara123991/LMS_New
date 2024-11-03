@@ -68,7 +68,7 @@ const Grade6Notes = () => {
         </header>
 
         {Object.entries(notesByInstitution).map(([institution, notes]) => (
-          <section key={institution} className="mb-12 mx-3">
+          <section key={institution} className="mb-12 mx-8">
             <h3 className="text-2xl font-semibold text-gray-700 mb-4">{institution}</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {notes.map((note) => (
